@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Import Google Icon Font-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<title>hola</title>
+<script type="text/javascript">
+        "use strict";
+        function generateURL (url, data) {
+            var l = [url].concat(Object.keys(data).map(function (name) {
+                return data[name];
+            }));
+
+            return l.reduce(function (p, c) {
+                return p + "/" + c;
+            })
+        }
+    // Procesar resultados del webservice
+    function webServiceResult(data)
+    {
+        $("#resultado_json").empty();    
+        $("#resultado_json").append("estilo : "+data+"<br>");
+    }
+    // Llamada al webservice
+    function callWebService()
+    {
+        var x1 = $("#v1").val();
+        var x2 = $("#v2").val();
+        var x3 = $("#v3").val();
+        var x4 = $("#v4").val();
+        var x5 = $("#v5").val();
+        var x6 = $("#v6").val();
+        var x7 = $("#v7").val();
+        console.log(x1)
+        var data = {
+            v1:x1,
+            v2:x2,
+            v3:x3,
+            v4:x4,
+            v5:x5,
+            v6:x6,
+            v7:x7
+        };
+        try
+        { 
+            $.ajax({
+                method: "get",
+                url: generateURL("http://localhost:8080/mpg_api", data),
+                dataType: "json",
+                success: function(msg) { webServiceResult(msg) },
+                error: function(jqXmlHttpRequest, textStatus, errorThrown) { alert("Error leyendo datos."); }
+            });
+        } 
+        catch (err) 
+        {
+            alert(err);
+        }
+    }
+</script>
+</head>
+<header>
+    <nav>
+    <div class="nav-wrapper blue">
+      <a href="#!" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">inicio</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<body>
+
+<!--pregunta 1 -->
+   <div class="row">
+        <div class="col s12">
+          1: que sombrero te gusta?:
+          <div class="input-field inline">
+            <input class="validate" type="text" id="v1" placeholder="sombrero">
+          </div>
+          <div class="blue darkend-3"><p style="font-family: cursive;size: 40px;  width: 100%;" align="center">Seleccione alguna (1)</p><img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5"> <img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5">
+        </div>
+      </div>
+</div>
+
+<!--pregunta 2 -->
+   <div class="row">
+        <div class="col s12">
+          que pañuelo te gusta?:
+          <div class="input-field inline">
+            <input class="validate" type="text" id="v2" placeholder="pañuelo">
+          </div>
+          <div class="yellow darkend-3"><p style="font-family: cursive;size: 40px;  width: 100%;" align="center">Seleccione alguna (1)</p><img width="200px" height="190px" class="responsive-img float" src="img/pañuelo.jpg" hspace="5"> <img width="200px" height="190px" class="responsive-img float" src="img/pañuelo.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/pañuelo.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/pañuelo.jpg" hspace="5">
+        </div>
+        </div>
+      </div>
+
+<!--pregunta 3 -->
+   <div class="row">
+        <div class="col s12">
+         que accesorio te gusta?:
+          <div class="input-field inline">
+            <input class="validate" type="text" id="v3" placeholder="accesorio">
+
+          </div>
+          <div class="blue darkend-3"><p style="font-family: cursive;size: 40px;  width: 100%;" align="center">Seleccione alguna (1)</p><img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5"> <img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/accesorios.jpg" hspace="5">
+        </div>
+        </div>
+      </div>
+
+<!--pregunta 4 -->
+   <div class="row">
+        <div class="col s12">
+          que polera te gusta?:
+          <div class="input-field inline">
+            <input class="validate" type="text" id="v4" placeholder="polera">
+
+          </div>
+          <div class="yellow darkend-3"><p style="font-family: cursive;size: 40px;  width: 100%;" align="center">Seleccione alguna (1)</p><img width="200px" height="190px" class="responsive-img float" src="img/polera.jpg" hspace="5"> <img width="200px" height="190px" class="responsive-img float" src="img/polera.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/polera.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/polera.jpg" hspace="5">
+        </div>
+        </div>
+      </div>
+
+
+<!--pregunta 5-->
+   <div class="row">
+        <div class="col s12">
+          que sweater te gusta?:
+          <div class="input-field inline">
+            <input class="validate" type="text" id="v5" placeholder="sweater">
+       
+          </div>
+          <div class="blue darkend-3"><p style="font-family: cursive;size: 40px;  width: 100%;" align="center">Seleccione alguna (1)</p><img width="200px" height="190px" class="responsive-img float" src="img/sweater.jpg" hspace="5"> <img width="200px" height="190px" class="responsive-img float" src="img/sweater.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/sweater.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/sweater.jpg" hspace="5">
+        </div>
+        </div>
+      </div>
+
+
+<!--pregunta 6-->
+   <div class="row">
+        <div class="col s12">
+          que pantalon te gusta?:
+          <div class="input-field inline">
+            <input class="validate" type="text" id="v6" placeholder="pantalon">
+          </div>
+          <div class="yellow darkend-3"><p style="font-family: cursive;size: 40px;  width: 100%;" align="center">Seleccione alguna (1)</p><img width="200px" height="190px" class="responsive-img float" src="img/pantalon.jpg" hspace="5"> <img width="200px" height="190px" class="responsive-img float" src="img/pantalon.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/pantalon.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/pantalon.jpg" hspace="5">
+        </div>
+        </div>
+      </div>
+
+<!--pregunta 7 -->
+   <div class="row">
+        <div class="col s12">
+          Que falda te gusta?:
+          <div class="input-field inline">
+            <input class="validate" type="text" id="v7" placeholder="falda">
+          </div>
+          <div class="blue darkend-3"><p style="font-family: cursive;size: 40px;  width: 100%;" align="center">Seleccione alguna (1)</p><img width="200px" height="190px" class="responsive-img float" src="img/falda.jpg" hspace="5"> <img width="200px" height="190px" class="responsive-img float" src="img/falda.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/falda.jpg" hspace="5"><img width="200px" height="190px" class="responsive-img float" src="img/falda.jpg" hspace="5">
+        </div>
+        </div>
+      </div>
+
+ <!--<button class="" type="button" onclick="javascript:callWebService();">que estilo soy</button> !-->
+  
+  <button class="btn waves-effect waves-light" type="button" name="action" onclick="javascript:callWebService();">¿Que estilo Soy?</button>
+  <div id="resultado_json"></div>
+
+  <script>
+      $(document).ready(function() {
+    Materialize.updateTextFields();
+  });
+  </script>
+
+
+</body>
+
+        <footer class="page-footer blue">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Tabla de estilos</h5>
+                <p class="grey-text text-lighten-4">
+                0 <- muy sobrio<br>
+                1 <- semi sobrio <br>
+                2 <- formal <br>
+                3 <- neutro <br>
+                4 <- casual <br>
+                5 <- liberal <br>
+                6 <- provocativo 
+
+                </p> 
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+</html>

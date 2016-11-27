@@ -1,0 +1,537 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background: #fff url("http://www.acindex.com.mx/nosotros/cuadros.png");
+	
+}
+
+
+#cabecera
+
+{
+	width:100%;
+	height:200px;
+position:relative;
+background-position:center;
+	color:#006;			
+}
+ 
+
+
+
+
+  #nav {
+      width: 100%;
+      float: left;
+      margin: 0 0 3em 0;
+      padding: 0;
+      list-style: none;
+      
+      border-bottom: 0px solid #ccc; 
+      border-top: 0px solid #ccc; }
+	  /*
+   #nav li {
+      float: left; }
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc; }
+   #nav li a:hover {
+      color: #c00;
+      background-color: #fff; }
+   /* End navigation bar styling. */
+   
+   /* This is just styling for this specific page. */
+   body {
+      background-color: #FFF;
+	   font: small/1.3 Arial, Helvetica, sans-serif; 
+      }
+   #wrap {
+      width: 750px;
+      margin: 0 auto;
+      background-color: #fff; }
+   h1 {
+      font-size: 0.5em;
+      padding: 1em 8px;
+      color: #333;
+	   
+	  height:20px;
+	   
+      background: #fff url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSNDrUslj-c0ifQ7fBbIjwF2_HaugQrvEhsVVro0a2YmZJn2vYRGQ");
+	  
+	  background-color:#06F;
+	  background-position:top center;
+      margin: 0; }
+   #content {
+      padding: 0 50px 50px; }
+	  
+div.imagenconcss{
+	background-color: #CCC;
+	
+	line-height: 0.1em;
+	margin: 5px 0 10px 10px;
+	padding: 2px 6px 5px 10px;
+	text-decoration: overline;
+}
+
+.imagencabecera
+{
+	width:100px;
+	height:100px;;
+background: #fff url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQlWgDB6b7okn-rqzPmUfT8gGkQ_FqfHHIAQaJnCmACFkXLAs3")no-repeat; 	
+}
+ 
+ 
+ 
+  .cuadrotexto { 
+    background-color : #F7F778; 
+    border: 1px solid #848484; 
+    height:25px; 
+    width: 275px; 
+    outline:0; 
+  } 
+  
+  
+  
+ .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ h2 {
+	 width:50%;
+	 height:50px;
+      font-size: 1.2em;
+      padding: 1em 15px;
+      
+     
+      margin: 0;
+	 
+	  background-position:top center;
+	  }
+	  
+	  .subirimagenes {
+		background: #fff url("http://www.babyplanet.com.mx/media/front/images/pestanaAzul.png");
+	  width:180px;
+	  height:10px;
+      font-size: 1.0em;
+      padding: 1em 1px;
+      color: #03C;
+      background-color: #069;
+      margin: 0;
+	  font-family:"Arial Black", Gadget, sans-serif;
+	  }
+	  
+	  
+ 
+ #abajo
+ {
+	width:100%;
+	height:40px;
+	color:#069;
+	font-family:"Lucida Console", Monaco, monospace;
+	  
+	
+ }
+h3 {
+	background: #fff url("http://www.babyplanet.com.mx/media/front/images/pestanaAzul.png");
+	 
+	 width:80%;
+	 width:500px;
+	 height:10px;
+      font-size: 1.2em;
+      padding: 1em 8px;
+      color: #FFF;
+      background-color: #069;
+      margin: 0; }
+	  
+	  h4 {
+	background: #fff url("http://www.babyplanet.com.mx/media/front/images/pestanaAzul.png");
+	 
+	 width:80%;
+	 width:500px;
+	 height:10px;
+      font-size: 1.2em;
+      padding: 1em 8px;
+      color: #FFF;
+      background-color: #069;
+      margin: 0; }
+	  
+.cuadroJuegos {
+	 
+   
+	  width:500px;
+	  height:100px;
+      font-size: 1.5em;
+      padding: 0.7em 8px;
+      color: #000;
+      background-color: #FFF;
+      margin: 0;
+	  border-radius: 7px 7px 7px 7px;
+     -moz-border-radius: 7px 7px 7px 7px;
+     -webkit-border-radius: 7px 7px 7px 7px;
+      border: 1px solid #999999;
+	  height:20px;
+      background: #fff url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3dgSwpkPMtUr3YfCkOLt2dmhzvYjfilGD34M1VL_SC72TTfloQA");
+	  
+	   }
+	   
+	   .segundacabecera
+	   
+	   {
+	  width:100%;
+	  width:700px;
+	  height:10px;
+      font-size: 0.8em;
+      padding: 1em 8px;
+	  background: #fff url("http://adicts.wapsite.me/1con/header/footer_3.png");
+     
+      background-color: #FFF;
+      margin: 0;
+	  border-radius: 7px 7px 7px 7px;
+     -moz-border-radius: 7px 7px 7px 7px;
+     -webkit-border-radius: 7px 7px 7px 7px;
+      border: 1px solid #CCCCCC; 
+	   }
+	   .segundacabecera li a {
+	   color: #FFF;
+}
+
+	   
+	   
+	 
+ 
+  .cajasuscripcion { 
+    border: 1px solid #c4c4c4; 
+    height: 25px; 
+    width: 275px; 
+    font-size: 13px; 
+    padding: 4px 4px 4px 4px; 
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    box-shadow: 0px 0px 8px #d9d9d9; 
+    -moz-box-shadow: 0px 0px 8px #d9d9d9; 
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9; 
+} 
+ 
+.cajasuscripcion:focus { 
+    outline: none; 
+    border: 1px solid #7bc1f7; 
+    box-shadow: 0px 0px 8px #7bc1f7; 
+    -moz-box-shadow: 0px 0px 8px #7bc1f7; 
+    -webkit-box-shadow: 0px 0px 8px #7bc1f7; 
+} 
+ 
+  h4 {
+	 
+      font-size: 0.5em;
+        }
+		
+		
+ h5 {
+	 
+      font-size: 0.8em;
+        }		
+		
+		
+		.letraprecios
+		
+		{
+			
+		font-family:"Lucida Console", Monaco, monospace;	
+		}
+		
+		
+		
+ 
+ 
+.cuadroBuscador { 
+    background: #FFF url(http://html-generator.weebly.com/files/theme/input-text-9.png) no-repeat 4px 4px; 
+    border: 1px solid #999; 
+    outline:0; 
+    padding-left: 25px;
+    height:25px; 
+    width: 275px; 
+  } 
+ 
+.myButton {
+	background-color:#2975b3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	padding:9px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #7feb26;
+}
+.myButton:hover {
+	background-color:#519fdb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+ 
+ 
+ 
+ 
+ 
+ /* el menú en si mismo */
+  .mi-menu  {
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0 auto; /* si queremos centrarlo */
+    padding: 0;
+    /* la altura y su ancho dependerán de los textos */
+    height: 40px; 
+    width: 510px;
+    /* el color de fondo */
+    background: #555;
+    background: -moz-linear-gradient(#555,#222);
+    background: -webkit-linear-gradient(#555,#222);
+    background: -o-linear-gradient(#555,#222);
+    background: -ms-linear-gradient(#555,#222);
+    background: linear-gradient(#555,#222);
+  }
+
+  /* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
+  .mi-menu  br { display:none; }
+
+  /* cada item del menu */
+  .mi-menu  li {
+    display: block;
+    float: left; /* la lista se ve horizontal */
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .mi-menu li a {
+    border-left: 2px solid #000;
+    border-right: 1px solid #666;
+    color: #EEE;
+    display: block;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 19px;
+    margin: 6px 0;
+    text-decoration: none;
+    /* animamos el cambio de color de los textos */
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+  }
+  /* eliminamos los bordes del primer y el último */
+  .mi-menu li:first-child a { border-left: none; }
+  .mi-menu li:last-child a{ border-right: none; }
+  /* efecto hover cambia el color */
+  .mi-menu li:hover > a { color: Crimson; }
+
+  /* los submenús */
+  .mi-menu ul {
+    border-radius: 0 0 5px 5px;
+    left: 0;
+    margin: 0;
+    opacity: 0; /* no son visibles */
+    position: absolute;
+    top: 40px; /* se ubican debajo del enlace principal */
+    /* el color de fondo */
+    background: #222;
+    background: -moz-linear-gradient(#222,#555);
+    background: -webkit-linear-gradient(#22,#555);
+    background: -o-linear-gradient(#222,#555);
+    background: -ms-linear-gradient(#222,#555);
+    background: linear-gradient(#222,#555);
+    /* animamos su visibildiad */
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+  }
+  /* son visibes al poner el cursor encima */
+  .mi-menu li:hover > ul { opacity: 1; }
+
+   /* cada un ode los items de los submenús */
+  .mi-menu ul li {
+    height: 0; /* no son visibles */
+    overflow: hidden;
+    padding: 0;
+    /* animamos su visibildiad */
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+  }
+  .mi-menu li:hover > ul li {
+    height: 36px; /* los mostramos */
+    overflow: visible;
+    padding: 0;
+  }
+  .mi-menu ul li a {
+    border: none;
+    border-bottom: 0px solid #111;
+    margin: 0;
+    /* el ancho dependerá de los textos a utilizar */
+    padding: 4px 4px;
+    width: 100px;
+  }
+  /* el último n otiene un borde */
+  .mi-menu ul li:last-child a { border: none; }
+.segundacabecera {
+	color: #FFF;
+}
+
+#contenidodejuego
+{
+	width:100%;
+	
+	 
+	background-color:#FFF;
+	background-position:center;
+}
+
+
+.botonBuscar {
+	-webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	font-family:'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	font-size:12px;
+	font-weight:700;
+	padding:2px 6px;
+	color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px
+}
+
+
+
+
+ 
+    .cajaLogin {
+    background: #F1F1F1 url(http://html-generator.weebly.com/files/theme/input-text-40.png) no-repeat;
+    background-position: 5px -7px !important;
+    padding: 10px 10px 10px 25px;
+    width: 270px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+}
+
+.cajaLogin:focus {
+    background-color: #FFF;
+    border-color: #E8C291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+
+  
+ .cajaLoginpassword {
+    background: #F1F1F1 url(http://html-generator.weebly.com/files/theme/input-text-40.png) no-repeat;
+    background-position: 5px -55px !important;
+    padding: 10px 10px 10px 25px;
+    width: 270px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+}
+
+.cajaLoginpassword:focus {
+    background-color: #FFF;
+    border-color: #E8C291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+  
+
+	
+ 
+	 
+table.informacion{
+	border-spacing: 10px 20px; border-collapse: separate
+	}
+ 
+.tinformacion{
+	border-spacing: 10px 20px; border-collapse: separate
+	}
+ 
+
+
+ 
+#text3 {
+    background: #333;
+    color: #ccc;
+    width: 200px;
+    padding: 6px 15px 6px 35px;
+    border-radius: 20px;
+    box-shadow: 0 1px 0 #ccc inset;
+    transition: 500ms all ease;
+    outline: 0;
+}
+
+#text3:hover {
+    width: 270px;
+}  
+ 
+#textcabecera{
+width:50px;
+height:100px;
+line-height: 1.5;
+text-shadow: -1px -1px 1px #aaa,
+0px 4px 1px rgba(0,0,0,0.5),
+4px 4px 5px rgba(0,0,0,0.7),
+0px 0px 7px rgba(0,0,0,0.4);
+font-size: 1.6rem;
+text-transform: capitalize;
+
+}
+  
+  
+ 
+#textActualizado
+{ 
+text-shadow: -1px -1px 1px #aaa,
+0px 4px 1px rgba(0,0,0,0.5),
+4px 4px 5px rgba(0,0,0,0.7),
+0px 0px 7px rgba(0,0,0,0.4);
+font-size: 1.6rem;
+text-transform: capitalize;
+}
+  
+  
